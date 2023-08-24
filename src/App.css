@@ -2,3 +2,32 @@
   margin: 0 auto;
   text-align: center;
 }
+
+.nav-one {
+  height: 100px;
+  background-color: blue;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: white;
+  margin-bottom: 30px;
+
+}
+.nav-one a{
+  text-decoration: none;
+  color: white;
+  padding-left: 40px;
+}
+
+.countryList{
+  display: flex;
+  flex-direction: column;
+  gap:2px;
+  padding: 10px
+}
+
+.countryDetails {
+  display: flex;
+  justify-content:space-evenly
+
+}
